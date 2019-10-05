@@ -218,15 +218,15 @@ function onConnection(socket) {
             socket.emit('status', s);
         }
 
-        chat.find({}).toArray(function(err,res){
-			if (err) {
-                throw err;
-            }
+        // chat.find({}).toArray(function(err,res){
+		// 	if (err) {
+        //         throw err;
+        //     }
 
-            // Emit the messages
-            socket.emit('output', res);
+        //     // Emit the messages
+        //     socket.emit('output', res);
 
-		});
+		// });
 
         // CHAT SOCKET EVENTS
         // Handle input events
