@@ -5,7 +5,20 @@ body {
 
 body {
   padding-top: 56px;
+  min-height: 100vh;
+  position: relative;
+  background-image: url("pumpkin_background.png");
+  background-repeat: no-repeat; 
+  background-size: 20% 20%;
+  background-position: right bottom; 
+  padding-bottom: 20px;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
 
 @media (max-width: 767.98px) {
   .offcanvas-collapse {
